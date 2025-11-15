@@ -28,7 +28,7 @@
 -v n8n_data:/home/node/.n8n 
 n8nio/n8n  # Базовый образ n8n, адаптируй под свой:/(Это из твоих скринов — для теста; потом замени на свой Dockerfile.)
 
-3. Открой в браузере: [http://localhost:5678](http://localhost:5678) — создавай workflows визуально!
+3. Открой в браузере: localhost:5678/workflow/xWy60j5TBEUHzo5X— создавай workflows визуально!
 
 ### Установка зависимостей
 - Python: `pip install -r requirements.txt`
