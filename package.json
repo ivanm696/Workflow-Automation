@@ -1,0 +1,17 @@
+{
+  "name": "workflow-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Workflow automation toolkit for CI/CD and routine project tasks.",
+  "packageManager": "pnpm@10.18.3",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "lint": "node --check src/index.js",
+    "test": "node --test"
+  }
+}
